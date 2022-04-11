@@ -1,0 +1,95 @@
+:root {
+    --color-white: #fff;
+    --color-light: #f4f4f4;
+    --color-dark: #525252;
+    --color-black: #141415;
+    --color-primary: #7b0d1e;
+    --color-primary-light: hsl(0, 100%, 25%, 12%);
+    --color-success: #7FA998;
+    --color-warning: #FFA36C;
+  
+    --transition: all 300ms ease;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-size: 15px;
+    scroll-behavior: smooth;
+  }
+  
+  html { 
+    background: url(pacground.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-dark);
+    max-width: 100vw;
+  }
+  
+  /* =============== NAV =============== */
+  
+  
+  nav {
+    background:var(--color-primary);
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+  }
+  
+  nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  
+  nav  {
+    color: var(--color-primary);
+  }
+  
+  nav .container ul {
+    display: flex;
+    height: 100%;
+  }
+  
+  nav .container ul li a {
+    height: 100%;
+    width: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-black);
+    position: relative;
+  }
+  
+  nav .container ul li a.active {
+    background: var(--color-primary);
+    color: var(--color-white);
+  }
+
+ button {
+    height: 100%;
+    width: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-white);
+    position: relative;
+    background: var(--color-primary);
+ }
