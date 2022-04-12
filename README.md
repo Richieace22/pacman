@@ -13,7 +13,7 @@ Download the repo zip. Open the index.html in your browser to play the game.
 
 I would like the user to be able to click on a specific PacMan to delete it from the game.
 
-## LICENSE
+## Licensing Information
 MIT License
 
 Copyright (c) 2020 John Williams
