@@ -1,4 +1,4 @@
-# Project Title: PacMen Factory
+# Project Title: PacMan Factory
 
 ## Description of Project: 
 This is a project to create multiple pacmen images and make them move across the screen. Once they reach the bounds of the screen they should change direction. I added the chomping and flipping effects with the images provided. I also added a third button to delete the pacmen on at a time.
